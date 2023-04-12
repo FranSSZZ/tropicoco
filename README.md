@@ -87,7 +87,29 @@ Link: https://www.realfoods.co.uk/shop/fresh-fruit-and-veg <br><br>
 
 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.<br><br>
 
+### _Family Food_<br>
+Link: https://familyfood.es/en/ <br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ff1.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ff2.png" width="600" height="400"><br><br>
+
+#### Análisis de Beanchmark Family Food <br><br>
+
+Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.<br><br>
+
+
+## **Figma**
+Link: https://www.figma.com/file/xsZZOnHOOMENE7bVEIUM3N/TropiCoco?node-id=0%3A1&t=KTulO5vnVwifzJxC-1 <br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/figma1.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/figma2.png" width="600" height="400"><br><br>
+
+
+## **Trello**
+Link: https://trello.com/b/EfOW90xj/e-commerce <br><br>
 
 <img src="" width="600" height="400"><br><br>
 
-
+<img src="" width="600" height="400"><br><br>
