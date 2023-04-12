@@ -20,12 +20,26 @@
 ## TropiCoco, fruta fresca y batidos
 <br><br>
 ## Nosotros
+<h1>Equipo 5</h1>
+<h2>Melanie</h2>
+<p>Product Owner</p>
+<h2>Juanan</h2>
+<p>Scrum Manager</p>
+<h2>Mariama</h2>
+<p>Desarrolladora</p>
+<h2>MFranci</h2>
+<p>Desarrolladora</p>
 <br><br>
 ## Navegación
 <br><br>
 ## Figma
 <br><br>
 ## Beanchmarking
+<h2>Big Basket</h2>
+https://www.bigbasket.com/cl/fruits-vegetables/
+<br><br>
+<h2>Online Fruit and Veg</h2>
+https://www.onlinefruitandveg.com/
 <br><br>
 ## Historias de Usuario
 <br><br>
