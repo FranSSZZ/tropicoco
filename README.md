@@ -1,62 +1,84 @@
 <p align="center"> 
-  <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/tropicoco_svg.svg">
+  <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/tropicoco_svg.svg" width="250" height="250">
 </p>
 
 # TropiCoco
-## **ÍNDICE**
-### _TropiCoco, fruta fresca y batidos_
-##### Sobre la página
-### _Nosotros_
-### _Navegación_
-##### Home
-##### Carrito de Compras
-##### Formulario de contacto
-### _Figma_
-### _Beanchmarking_
-### _Historias de Usuario_
-### _Trello_
------------
 
-## TropiCoco, fruta fresca y batidos
-<br><br>
-## Nosotros
-<h1>Equipo 5</h1>
+## **Contenido del repositorio**
 
-![melanie](https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Melanie.jpeg)
+Página principal<br>
+1. Archivos: **index.html, style.css, index.js**<br>
+2. Carpetas: **img, imgReadme**<br>
+3. Documento **README**<br>
+4. Enlace a **Figma**<br>
+5. Enlace a **Trello**<br>
 
-<h2>Melanie</h2>
-<p>Product Owner</p>
-<br><br>
+## **Sobre la Página**
 
-![juanan]()
+### _Qué es TropiCoco, fruta fresca y batidos_<br>
+Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.<br>
 
-<h2>Juanan</h2>
-<p>Scrum Manager</p>
-<br><br>
+### _Navegación_<br>
+1. Home<br>
+2. Carrito de Compras<br>
+3. Formulario de registro<br>
+4. Formulario de contacto<br>
 
-![mariama](https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Mariama.jpeg)
+## **Nosotros**
+### Equipo 5
 
-<h2>Mariama</h2>
-<p>Desarrolladora</p>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Melanie.jpeg" width="200" height="200">
+
+Melanie<br>
+Product Owner<br>
 <br><br>
 
-![franci](https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Franci.jpg)
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Juanan.jpg" width="200" height="200">
 
-<h2>Franci</h2>
-<p>Desarrolladora</p>
+Juanan<br>
+Scrum Manager<br>
 <br><br>
 
-## Navegación
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Mariama.jpeg" width="200" height="200">
+
+Mariama<br>
+Desarrolladora<br>
 <br><br>
-## Figma
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Franci.jpg" width="200" height="200">
+
+Franci<br>
+Desarrolladora<br>
 <br><br>
-## Beanchmarking
-<h2>Big Basket</h2>
-https://www.bigbasket.com/cl/fruits-vegetables/
-<br><br>
-<h2>Online Fruit and Veg</h2>
-https://www.onlinefruitandveg.com/
-<br><br>
-## Historias de Usuario
-<br><br>
-## Trello
+
+## **Beanchmarking**
+
+### _Big Basket_<br>
+Link: https://www.bigbasket.com/cl/fruits-vegetables/ <br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/bb1.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/bb2.png" width="600" height="400"><br><br>
+
+#### Análisis de Beanchmark Big Basket <br><br>
+
+Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.<br><br>
+
+### _Online Fruit and Veg_<br>
+Link: https://www.onlinefruitandveg.com/ <br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ofv1.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ofv2.png" width="600" height="400"><br><br>
+
+#### Análisis de Beanchmark Online Fruit and Veg <br><br>
+
+Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.<br><br>
+
+
+
+<img src="" width="600" height="400"><br><br>
+<img src="" width="600" height="400"><br><br>
+<img src="" width="600" height="400"><br><br>
+
+
