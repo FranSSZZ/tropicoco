@@ -13,7 +13,8 @@
 * Product Owner: 
 1. Desarrolladores: 
 * 
-* Mariama
+* Mariama Salhi 
+
 
 >>>>>>> origin
 
