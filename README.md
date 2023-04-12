@@ -21,15 +21,31 @@
 <br><br>
 ## Nosotros
 <h1>Equipo 5</h1>
+
+![melanie](https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Melanie.jpeg)
+
 <h2>Melanie</h2>
 <p>Product Owner</p>
+<br><br>
+
+![juanan]()
+
 <h2>Juanan</h2>
 <p>Scrum Manager</p>
+<br><br>
+
+![mariama](https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Mariama.jpeg)
+
 <h2>Mariama</h2>
 <p>Desarrolladora</p>
-<h2>MFranci</h2>
+<br><br>
+
+![franci](https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Franci.jpg)
+
+<h2>Franci</h2>
 <p>Desarrolladora</p>
 <br><br>
+
 ## Navegación
 <br><br>
 ## Figma
