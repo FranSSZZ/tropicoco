@@ -1,0 +1,2 @@
+# tropicoco
+Tropicoco Ejercicio grupal
