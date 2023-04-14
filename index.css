@@ -14,7 +14,6 @@ nav {
   text-align: center;
   margin: 5px;
   transition: transform 0.2s ease-in-out;
-  margin-left: 80px;
   display: flex;
 }
 .box:hover {
@@ -54,7 +53,7 @@ h2 {
 }
 select {
   background-color: #ffffff;
-  color: #000000;
+  color: #0a0a0a;
   font-size: 16px;
   padding: 8px;
   border: none;
