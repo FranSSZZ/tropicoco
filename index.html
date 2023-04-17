@@ -7,217 +7,869 @@
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
+  </header>
 <body>
-    <main>
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-          <h2>FRUITS</h2>
-            <section class="flex-container">
+  <div id="search-bar" class="search-bar">
+    <form action="" method="get">
+      <input type="text" id="buscador" name="search" placeholder="Buscar..." id="search-input">
+      <button type="submit">Buscar</button>
+    </form>
+  </div>
+  <main>
+      <h2>Vegetables</h2>
+      <section class="flex-container">
+            <div id="garlic" class="big-box">
+                <div class="box"> 
+                  <img src="img.verduras/ajos.png" alt="Garlic">
+                </div>
+                  <div class="details">
+                    <p class="name">Garlic</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button" onclick="addToCart('garlic')">Add</button>
+                </div>
+              <div id="artichokes" class="big-box">
                 <div class="box">
-                  <img src="img.index/caquis.png" alt="Fruta 1">
-                  <select>
-                    <option value="1">1 kg</option>
-                    <option value="2">3 kg</option>
-                    <option value="3">5 kg</option>
-                  </select>
+                  <img src="img.verduras/alcachofas.png" alt="Artichokes">
                 </div>
-                <div class="box"><img src="img.index/cerezas.png" alt="Fruta 2">
-                  <select>
+                  <div class="details">
+                    <p class="description">Artichokes</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select> 
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button" onclick="addToCart('Artichokes')">Add</button>
+              </div>
+            <div id="celery" class="big-box">   
+                <div class="box">
+                  <img src="img.verduras/apios.png" alt="Celery">
                 </div>
-                <div class="box"><img src="img.index/ciruelas.png" alt="Fruta 3">
-                  <select>
+                  <div class="details">
+                    <p class="name">Celery</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button" onclick="addToCart('celery')">Add</button>
+              </div>
+            <div id="eggplant" class="big-box">
+                <div class="box">
+                  <img src="img.verduras/berenjenas.png" alt="Eggplant">
                 </div>
-                <div class="box"><img src="img.index/cocos.png" alt="Fruta 4">
-                  <select>
+                  <div class="details">
+                    <p class="description">Eggplant</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button" onclick="addToCart('eggplant')">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/brocolis.png" alt="Broccoli">
                 </div>
-                <div class="box"><img src="img.index/frambuesas.png" alt="Fruta 5">
-                  <select>
+                  <div class="details">
+                    <p class="description">Broccoli</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/calabacin.png" alt="Zucchini">
                 </div>
-                <div class="box"><img src="img.index/fresas.png" alt="Fruta 6">
-                  <select>
+                  <div class="details">
+                    <p class="description">Zucchini</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/calabaza.png" alt="Pumpkin">
                 </div>
-                <div class="box"><img src="img.index/frutadelapasion.png" alt="Fruta 7">
-                  <select>
+                  <div class="details">
+                    <p class="description">Pumpkin</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/cebollas.png" alt="Onion">
                 </div>
-                <div class="box"><img src="img.index/granada.png" alt="Fruta 8">
-                  <select>
+                  <div class="details">
+                    <p class="description">Onion</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/coliflor.png" alt="Cauliflower">
                 </div>
-                <div class="box"><img src="img.index/higos.png" alt="Fruta 9">
-                  <select>
+                  <div class="details">
+                    <p class="description">Cauliflower</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/espinacas.png" alt="Spinach">
                 </div>
-                <div class="box"><img src="img.index/kiwi.png" alt="Fruta 10">
-                  <select>
+                  <div class="details">
+                    <p class="description">Spinach</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/guisantes.png" alt="Peas">
                 </div>
-                <div class="box"><img src="img.index/limones.png" alt="Fruta 11">
-                  <select>
+                  <div class="details">
+                    <p class="description">Peas</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/habas.png" alt="Broad Beans">
                 </div>
-                <div class="box"><img src="img.index/manzana.png" alt="Fruta 12">
-                  <select>
+                  <div class="details">
+                    <p class="description">Broad Beans</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/judiasverdes.png" alt="Green Beans">
                 </div>
-                <div class="box"><img src="img.index/uvas.png" alt="Fruta 13">
-                  <select>
+                  <div class="details">
+                    <p class="description">Green Beans</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/lechugas.png" alt="Lettuce">
                 </div>
-                <div class="box"><img src="img.index/melocotones.png" alt="Fruta 14">
-                  <select>
+                <div class="details">
+                    <p class="description">Lettuce</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/maiz.png" alt="Corn">
                 </div>
-                <div class="box"><img src="img.index/melones.png" alt="Fruta 15">
-                  <select>
+                  <div class="details">
+                    <p class="description">Corn</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/patatas.png" alt="Potato">
                 </div>
-                <div class="box"><img src="img.index/moras.png" alt="Fruta 16">
-                  <select>
+                  <div class="details">
+                    <p class="description">Potato</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/pepinos.png" alt="Cucumber">
                 </div>
-                <div class="box"><img src="img.index/naranjas.png" alt="Fruta 17">
-                  <select>
+                  <div class="details">
+                    <p class="description">Cucumber</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/pimientos.png" alt="Pepper">
                 </div>
-                <div class="box"><img src="img.index/papayas.png" alt="Fruta 18">
-                  <select>
+                  <div class="details">
+                    <p class="description">Pepper</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/puerro.png" alt="Leek">
                 </div>
-                <div class="box"><img src="img.index/peras.png" alt="Fruta 19">
-                  <select>
+                  <div class="details">
+                    <p class="description">Leek</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/remolachas.png" alt="Beet">
                 </div>
-                <div class="box"><img src="img.index/pinias.png" alt="Fruta 20">
-                  <select>
+                  <div class="details">
+                    <p class="description">Beet</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/tomates.png" alt="Tomato">
                 </div>
-                <div class="box"><img src="img.index/platano.png" alt="Fruta 21">
-                  <select>
+                  <div class="details">
+                    <p class="description">Tomato</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
-                  <select>
-                    <option value="1">1 kg</option>
-                    <option value="2">3 kg</option>
-                    <option value="3">5 kg</option>
-                  </select>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+            <div class="big-box">
+                <div class="box">
+                  <img src="img.verduras/zanahorias.png" alt="Carrot">
                 </div>
-                <div class="box"><img src="img.index/sandias.png" alt="Fruta 22">
-                  <select>
+                  <div class="details">
+                    <p class="description">Carrot</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
                     <option value="1">1 kg</option>
                     <option value="2">3 kg</option>
                     <option value="3">5 kg</option>
-                  </select>
-                </div>
-              </section>
-          <h2>VEGETABLES</h2>
-             <section class="flex-container">
-                <div class="box"><img src="img.verduras/ajos.png" alt="Verdura 1"></div>
-                <div class="box"><img src="img.verduras/alcachofas.png" alt="Verdura 2"></div>
-                <div class="box"><img src="img.verduras/apios.png" alt="Verdura 3"></div>
-                <div class="box"><img src="img.verduras/berenjenas.png" alt="Verdura 4"></div>
-                <div class="box"><img src="img.verduras/brocolis.png" alt="Verdura 5"></div>
-                <div class="box"><img src="img.verduras/calabacin.png" alt="Verdura 6"></div>
-                <div class="box"><img src="img.verduras/calabaza.png" alt="Verdura7"></div>
-                <div class="box"><img src="img.verduras/cebollas.png" alt="Verdura 8"></div>
-                <div class="box"><img src="img.verduras/coliflor.png" alt="Verdura 9"></div>
-                <div class="box"><img src="img.verduras/espinacas.png" alt="Verdura 10"></div>
-                <div class="box"><img src="img.verduras/guisantes.png" alt="Verdura 11"></div>
-                <div class="box"><img src="img.verduras/habas.png" alt="Verdura 12"></div>
-                <div class="box"><img src="img.verduras/judiasverdes.png" alt="Verdura 13"></div>
-                <div class="box"><img src="img.verduras/lechugas.png" alt="Verdura 14"></div>
-                <div class="box"><img src="img.verduras/maiz.png" alt="Verdura 15"></div>
-                <div class="box"><img src="img.verduras/patatas.png" alt="Verdura 16"></div>
-                <div class="box"><img src="img.verduras/pepinos.png" alt="Verdura 17"></div>
-                <div class="box"><img src="img.verduras/pimientos.png" alt="Verdura 18"></div>
-                <div class="box"><img src="img.verduras/puerro.png" alt="Verdura 19"></div>
-                <div class="box"><img src="img.verduras/remolachas.png" alt="Verdura 20"></div>
-                <div class="box"><img src="img.verduras/tomates.png" alt="Verdura 21"></div>
-                <div class="box"><img src="img.verduras/zanahorias.png" alt="Verdura 22"></div>
-            </section>
-          <h2>SMOOTHIES</h2>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+      </section>
+      <h2>FRUITS</h2>
             <section class="flex-container">
-                <div class="box"><img src="img.smoothies/s..png" alt="Smoothie 1"></div>
-                <div class="box"><img src="img.smoothies/s.arandano.png" alt="Smoothie 2"></div>
-                <div class="box"><img src="img.smoothies/s.frambuesa.png" alt="Smoothie 3"></div>
-                <div class="box"><img src="img.smoothies/s.fresa.png" alt="Smoothie 4"></div>
-                <div class="box"><img src="img.smoothies/s.melocoton.png" alt="Smoothie 5"></div>
-                <div class="box"><img src="img.smoothies/s.melon.png" alt="Smoothie 6"></div>
-                <div class="box"><img src="img.smoothies/s.mora.png" alt="Smoothie 7"></div>
-                <div class="box"><img src="img.smoothies/s.sandia.png" alt="Smoothie 8"></div>
-            </section>
-          </div>   
-    </main>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/caquis.png" alt="Khaki">
+                </div>
+                  <div class="details">
+                    <p class="description">Khaki</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/cerezas.png" alt="Cherry">
+                </div>
+                <div class="details">
+                  <p class="description">Cherry</p>
+                  <p class="price">$1.75 / lb</p> 
+                </div>
+                <select name="quantity" class="select-style">
+                  <option value="1">1 kg</option>
+                  <option value="2">3 kg</option>
+                  <option value="3">5 kg</option>
+                  <option value="4">10 kg</option>
+              </select>
+              <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/ciruelas.png" alt="Plum">
+                </div>
+                <div class="details">
+                  <p class="description">Plum</p>
+                  <p class="price">$1.75 / lb</p> 
+                </div>
+                <select name="quantity" class="select-style">
+                  <option value="1">1 kg</option>
+                  <option value="2">3 kg</option>
+                  <option value="3">5 kg</option>
+                  <option value="4">10 kg</option>
+              </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/cocos.png" alt="Coconut">
+                </div>
+                  <div class="details">
+                    <p class="description">Coconut</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 pz</option>
+                    <option value="2">3 pz</option>
+                    <option value="3">5 pz</option>
+                    <option value="4">10 pz</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/frambuesas.png" alt="Raspberry">
+                </div>
+                  <div class="details">
+                    <p class="description">Raspberry</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 box (250g)</option>
+                    <option value="2">3 box (750)</option>
+                    <option value="3">1 kg</option>
+                    <option value="4">big box (4kg)</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/fresas.png" alt="Strawberries">
+                </div>
+                  <div class="details">
+                    <p class="description">Strawberries</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/frutadelapasion.png" alt="Passion Fruit">
+                </div>
+                  <div class="details">
+                    <p class="description">Passion Fruit</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/granada.png" alt="Grenade">
+                </div>
+                  <div class="details">
+                    <p class="description">Grenade</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/higos.png" alt="Figs">
+                </div>
+                  <div class="details">
+                    <p class="description">Figs</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/kiwi.png" alt="Kiwi">
+                </div>
+                  <div class="details">
+                    <p class="description">Kiwi</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/limones.png" alt="Lemon">
+                </div>
+                  <div class="details">
+                    <p class="description">Lemon</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/manzana.png" alt="Apple">
+                </div>
+                  <div class="details">
+                    <p class="description">Apple</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/uvas.png" alt="Grapes">
+                </div>
+                  <div class="details">
+                    <p class="description">Grapes</p>
+                    <p class="price">$2.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">
+                <div class="box">
+                  <img src="img.index/melocotones.png" alt="Peach">
+                </div>
+                  <div class="details">
+                    <p class="description">Peach</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box"> 
+                <div class="box">
+                  <img src="img.index/melones.png" alt="Melon">
+                </div>
+                  <div class="details">
+                    <p class="description">Melon</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">  
+                <div class="box">
+                  <img src="img.index/moras.png" alt="Blackberry">
+                </div>
+                <div class="details">
+                    <p class="description">Blackberry</p>
+                    <p class="price">$2.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">  
+                <div class="box">
+                  <img src="img.index/naranjas.png" alt="Orange">
+                </div>
+                <div class="details">
+                    <p class="description">Orange</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">  
+                <div class="box">
+                  <img src="img.index/papayas.png" alt="Papaya">
+                </div>
+                <div class="details">
+                    <p class="description">Papaya</p>
+                    <p class="price">$2.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                 <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">  
+                <div class="box">
+                  <img src="img.index/peras.png" alt="Pears">
+                </div>
+                <div class="details">
+                    <p class="description">Pears</p>
+                    <p class="price">$2.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">  
+                <div class="box">
+                  <img src="img.index/pinias.png" alt="Ananas">
+                </div>
+                <div class="details">
+                    <p class="description">Ananas</p>
+                    <p class="price">$2.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 pz</option>
+                    <option value="2">3 pz</option>
+                    <option value="3">5 pc</option>
+                    <option value="4">10 pc</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">  
+                <div class="box">
+                  <img src="img.index/platano.png" alt="Banana">
+                </div>
+                <div class="details">
+                    <p class="description">Banana</p>
+                    <p class="price">$2.50 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+              <div class="big-box">  
+                <div class="box">
+                  <img src="img.index/sandias.png" alt="Watermelon">
+                </div>
+                <div class="details">
+                    <p class="description">Watermelon</p>
+                    <p class="price">$4.90 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1 kg</option>
+                    <option value="2">3 kg</option>
+                    <option value="3">5 kg</option>
+                    <option value="4">10 kg</option>
+                </select>
+                  <button class="my-button" type="button">Add</button>
+              </div>
+     </section>
+      <h2>SMOOTHIES</h2>
+      <section class="flex-container">
+        <div class="big-box">
+          <div class="box">
+            <img src="img.smoothies/s..png" alt="Smoothie 1">
+          </div>
+            <div class="details">
+                    <p class="description">Berry-mix</p>
+                    <p class="price">$2.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">5</option>
+                    <option value="4">10</option>
+                </select>
+                <button class="my-button" type="button">Add</button>     
+        </div>
+        <div class="big-box">
+          <div class="box">
+            <img src="img.smoothies/s.arandano.png" alt="Smoothie 2">
+          </div>
+            <div class="details">
+                    <p class="description">Blueberry</p>
+                    <p class="price">$2.75 / lb</p>
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">5</option>
+                    <option value="4">10</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+        </div>
+        <div class="big-box">
+          <div class="box">
+            <img src="img.smoothies/s.frambuesa.png" alt="Smoothie 3">
+          </div>
+          <div class="details">
+                    <p class="description">Raspberry</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">5</option>
+                    <option value="4">10</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+        </div>
+        <div class="big-box">
+          <div class="box">
+            <img src="img.smoothies/s.fresa.png" alt="Smoothie 4">
+          </div>
+            <div class="details">
+                    <p class="description">Strawberry</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">5</option>
+                    <option value="4">10</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+        </div>
+        <div class="big-box">
+          <div class="box">
+            <img src="img.smoothies/s.melocoton.png" alt="Smoothie 5">
+          </div>
+          <div class="details">
+                    <p class="description">Peach</p>
+                    <p class="price">$2.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">5</option>
+                    <option value="4">10</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+        </div>
+        <div class="big-box">
+          <div class="box">
+            <img src="img.smoothies/s.melon.png" alt="Smoothie 6">
+          </div>
+          <div class="details">
+                    <p class="description">Melon</p>
+                    <p class="price">$1.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">5</option>
+                    <option value="4">10</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+        </div>
+        <div class="big-box">
+          <div class="box">
+            <img src="img.smoothies/s.mora.png" alt="Smoothie 7">
+          </div>
+          <div class="details">
+                    <p class="description">Blackberry</p>
+                    <p class="price">$2.75 / lb</p> 
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">5</option>
+                    <option value="4">10</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+        </div>
+        <div class="big-box">
+          <div class="box">
+            <img src="img.smoothies/s.sandia.png" alt="Smoothie 8">
+          </div>
+            <div class="details">
+                    <p class="description">Watermelon</p>
+                    <p class="price">$2.75 / lb</p>
+                  </div>
+                  <select name="quantity" class="select-style">
+                    <option value="1">1</option>
+                    <option value="2">3</option>
+                    <option value="3">5</option>
+                    <option value="4">10</option>
+                </select>
+                <button class="my-button" type="button">Add</button>
+        </div> 
+      </section>
+    </div>
     
+    
+
+
+
+
+
+
+
+    
+
+	</main>
+  <script src="index.js"></script>
 </body>
 </html>
