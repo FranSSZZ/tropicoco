@@ -58,30 +58,25 @@ h4 {
 
 @media (min-width: 992px) {
 
-
+.bg-secondary{
+   
+    min-height: 450px;
     .redes {
         width: 65%;
         height: 70%;
         position: absolute;
         top: 85px;
         left: 2px;
-        
-
-
-
         .bg-white {
             width: 80%;
             height: $iconH*1.9;
             background-color: brown;
-
-
             img {
                 height: $iconH*1.8;
                 width: $iconW*1.9;
             }
         }
     }
-
     .app {
         display: block;
         height: $appH*4;
@@ -93,4 +88,11 @@ h4 {
             margin-top: 3%;
         }
     }
+    .copy{
+        //margin-top: 70px;
+        position: absolute;
+        bottom: 2px;
+        
+    }
+}
 }

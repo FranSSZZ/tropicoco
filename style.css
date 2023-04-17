@@ -46,30 +46,37 @@ h4 .bg-white {
 }
 
 @media (min-width: 992px) {
-  .redes {
+  .bg-secondary {
+    min-height: 450px;
+  }
+  .bg-secondary .redes {
     width: 65%;
     height: 70%;
     position: absolute;
     top: 85px;
     left: 2px;
   }
-  .redes .bg-white {
+  .bg-secondary .redes .bg-white {
     width: 80%;
     height: 57px;
     background-color: brown;
   }
-  .redes .bg-white img {
+  .bg-secondary .redes .bg-white img {
     height: 54px;
     width: 57px;
   }
-  .app {
+  .bg-secondary .app {
     display: block;
     height: 200px;
     width: 100%;
   }
-  .app img {
+  .bg-secondary .app img {
     width: 330px;
     height: 90px;
     margin-top: 3%;
+  }
+  .bg-secondary .copy {
+    position: absolute;
+    bottom: 2px;
   }
 }/*# sourceMappingURL=style.css.map */
