@@ -2,6 +2,80 @@
   box-sizing: border-box;
 }
 
+h2 {
+  text-align: center;
+}
+
+main {
+  min-height: 1000px;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+
+.cajaObjeto {
+  display: flex;
+  min-width: 170px;
+}
+
+.cajaObjeto1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(154, 246, 214, 0.533);
+  padding: 10px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  *background-color: #f7d4ad;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(22, 203, 31, 0.3);
+  padding: 20px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.cajaObjeto2 {
+  border: solid 5px rgb(0, 255, 51);
+  display: flex;
+  flex-direction: column;
+}
+
+.img-fluid {
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.my-button {
+  background-color: #ff9d00;
+  background-image: linear-gradient(to bottom, #ff7300, #FFDB58);
+  border: none;
+  color: white;
+  padding: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 0px 0px #C4C4C4;
+  transition: transform 0.2s;
+  margin-top: 20px;
+  min-width: 140px;
+}
+
+.my-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 7px 0px 0px #C4C4C4;
+}
+
+.my-button:active {
+  transform: translateY(-1px);
+  box-shadow: 0px 4px 0px 0px #C4C4C4;
+}
+
+aside {
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+
 h4 {
   margin-bottom: 30px;
   color: chartreuse;
@@ -41,20 +115,21 @@ h4 .bg-white {
 }
 
 .copy {
+  position: relative;
   margin-bottom: 2px;
   font-size: 0.8rem;
 }
 
 @media (min-width: 992px) {
   .bg-secondary {
-    min-height: 450px;
+    min-height: 250px;
   }
   .bg-secondary .redes {
     width: 65%;
     height: 70%;
-    position: absolute;
-    top: 85px;
-    left: 2px;
+    position: relative;
+    bottom: 55px;
+    left: -200px;
   }
   .bg-secondary .redes .bg-white {
     width: 80%;
@@ -74,9 +149,5 @@ h4 .bg-white {
     width: 330px;
     height: 90px;
     margin-top: 3%;
-  }
-  .bg-secondary .copy {
-    position: absolute;
-    bottom: 2px;
   }
 }/*# sourceMappingURL=style.css.map */
