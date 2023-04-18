@@ -12,36 +12,36 @@
     <title>Document</title>
 </head>
 <body class="bg-success">
-    <div class="container border border-white">
+    <div class="container border border-white mt-3">
         <div class="row mb-3 mt-3">
-            <div class="span12">
+            <div class="d-flex justify-content-center">
                 <form class="form-horizontal span6">
                     <fieldset>
                         <p class="h1 text-center text-white">Gestión de Pago</p>
-                        <div class="control-group">
+                        <div class="control-group mt-3 mb-1">
                             <label class="control-label text-white">Nombre en la Tarjeta</label>
                             <div class="controls">
                                 <input type="text" class="input-block-level" pattern="\w+ \w+.*" title="Complete con su primer nombre y apellido" required>
                             </div>
                         </div>
                         <div class="control-group">
-                            <label class="control-label text-white">Número de Tarjeta</label>
-                            <div class="controls">
-                                <div class="row-fluid">
-                                    <div class="span3">
-                                        <input type="text" class="input-block-level maxlength-4" autocomplete="off" maxlength="4" pattern="\d{4}" title="1eros cuatro dígitos" requiered>
+                            <label class="control-label text-white pt-4">Número de Tarjeta</label>
+                            <!-- <div class="controls"> -->
+                                <div class="row pt-4">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="0000" aria-label="0000">
                                     </div>
-                                    <div class="span3">
-                                        <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="2dos cuatro dígitos" required>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="0000" aria-label="0000">
                                     </div>
-                                    <div class="span3">
-                                        <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="3eros cuatro dígitos" required>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="0000" aria-label="0000">
                                     </div>
-                                    <div class="span3">
-                                        <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="4tos cuatro dígitos" required>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="0000" aria-label="0000">
                                     </div>
                                 </div>
-                            </div>
+                            <!-- </div> -->
                         </div>
                         <div class="control-group">
                             <label class="control-label text-white">Fecha de expiración de la Tarjeta</label>
