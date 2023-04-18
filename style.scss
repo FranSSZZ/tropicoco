@@ -50,9 +50,13 @@ h4 {
 }
 
 .copy {
+    position: relative;
+    
+
     margin-bottom: 2px;
     font-size: 0.8rem;
-    ;
+    
+    
 }
 
 
@@ -60,13 +64,13 @@ h4 {
 
 .bg-secondary{
    
-    min-height: 450px;
+    min-height: 250px;
     .redes {
         width: 65%;
         height: 70%;
-        position: absolute;
-        top: 85px;
-        left: 2px;
+        position: relative;
+        bottom: 55px;
+        left: -200px;
         .bg-white {
             width: 80%;
             height: $iconH*1.9;
@@ -88,11 +92,6 @@ h4 {
             margin-top: 3%;
         }
     }
-    .copy{
-        //margin-top: 70px;
-        position: absolute;
-        bottom: 2px;
-        
-    }
+  
 }
 }
