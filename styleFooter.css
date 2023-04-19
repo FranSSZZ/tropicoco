@@ -1,0 +1,85 @@
+footer {
+  background-color: #F5F5DC; /* color crema */
+  padding: 40px 0;
+  height: px;
+}
+
+footer h4 {
+  color: #2E8B57; /* color verde oscuro */
+  font-weight: bold;
+}
+
+footer p, footer small {
+  color: #556B2F; /* color verde oliva */
+}
+
+footer img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+footer .bg-white {
+  display: flex;
+  justify-content: center;
+}
+
+footer .app {
+  width: 140px;
+  margin: 10px;
+  
+}
+
+footer .copy {
+  color: #556B2F; /* color verde oliva */
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer .redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .redes h4 {
+  margin-bottom: 20px;
+}
+
+footer .redes img {
+  margin: 0 10px;
+  width: 35px;
+}
+/* Ajuste de las filas para que los elementos se alineen horizontalmente */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Ajuste de las columnas para que tengan el mismo ancho y se alineen horizontalmente */
+.col-6 {
+  flex: 1;
+  width: 50%;
+  margin-bottom: 1rem;
+  margin-left: 20px;
+}
+
+/* Ajuste de los elementos hijos de las columnas para centrar el contenido horizontalmente */
+.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row.re {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+@media(max-width:991px){
+  footer{
+      padding: 16px 68px;
+  }
+}
