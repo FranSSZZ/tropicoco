@@ -214,6 +214,6 @@ Link: https://github.com/FranSSZZ/tropicoco.git <br><br>
 
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprpago.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprprueba2.png" width="600" height="300""><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprprueba2.png" width="600" height="300"><br><br>
 
 
