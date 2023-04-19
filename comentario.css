@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2? family= Inter & mostrar=intercambiar');
 *{
     font-family: 'Inter', sans-serif-serif;
@@ -25,7 +26,7 @@ body{
     color:var(--bg-color);
 }
 header{
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     right: 0;

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After 10</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="prueba.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylefooter.css">
+    <link rel="stylesheet" href="stylefooter.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    
+    <script defer src="stock.js"></script>
+    <script defer src="modal.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+        <a  href="#" class="logo">
+            <img src="img/tropicoco.png" alt="logo de tropicoco">
+
+          </a>
+           <i class='bx bx-menu' id="menu-icon"></i>
+           <ul class="navbar">
+               <li><a href="home">Inicio</a></li>
+               <li><a href="about">Nosotros</a></li>
+               <li><a class="products">Productos</a></li>
+               <li><a class="customers" href="usuario.html">Resgistro</a></li>
+               <li><a class="customers" href="comentario.html">Coméntanos</a></li>
+           </ul>
+           <div class="header-icon">
+               <i class='bx bx-cart'></i>
+               <i class='bx bx-search'><search-icon></search-icon></i>
+           </div>
+           <!--Search Box-->
+           <div  id="Buscador" class="search-box">
+               <input type="search" name="" id="" placeholder="Search Here...">
+           </div>
+    </header>
+    <h2>Frutas</h2>
+    <main id="contenedor-productos">
+    
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+                <!-- <div class="productoEnCarrito">
+                    <p>Buzo 1</p>
+                    <p>Precio: $1200</p>
+                    <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+                </div> -->
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+            <button id="boton-pagar"><a href="pago.html">Pagar</a></button>
+            
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid bg-secondary  ">
+            <div class="row pt-3 mh-80  ">
+                <div class="col-6 col-lg-4 text-center mb-4">
+                    <h4>TROPICOCO</h4>
+                    <p>ABOUT US</p>
+                    <P>PRIVACI POLICY</P>
+                    <P>TERMS AND CODITIONS</P>
+                </div>
+                <div class="col-6 col-lg-4 text-center mb-4">
+                    <h4>HELP</h4>
+                    <p>FAQS</p>
+                    <P>CONTACT US</P>
+                    <P>TROPICOCO CONNECT</P>
+                </div>
+                <div class="  row  col-12 col-lg-4 text-center justify-content-center mb-4">
+                    <h4>DOWNLOAD OUR APP</h4>
+                    <div class="app">
+                        <i class="bi bi-google-play"></i>
+                        <i class="bi bi-apple"></i> 
+                    </div>
+                </div>
+            </div>
+            <div class="row re pb-3  ">
+                <div class=" redes col-8 col-lg-6  ">
+                    <h4>GET SOCIAL WITH US</h4>
+                    <div class="bg-white ">
+                        <div class="bg-white">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-pinterest"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                          </div>
+                          
+                    </div>
+                </div>
+            </div>
+            <p class="copy"><small><b>Copyright@2023 Tropicoco Pvt Ltd</b></small></p>
+        </div>
+    </footer>
+       <script defer src="stock.js"></script>
+       <script defer src="modal.js"></script>
+       <script defer src="app.js"></script>
+   
+</body>
+</html>

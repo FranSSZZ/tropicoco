@@ -1,0 +1,75 @@
+h4 {
+  margin-bottom: 30px;
+  color: chartreuse;
+}
+h4 .bg-white {
+  align-self: auto;
+}
+
+.app {
+  justify-content: space-around;
+}
+.app img {
+  width: 150px;
+  height: 50px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.redes .bg-white {
+  display: flex;
+  height: 50%;
+  width: 80%;
+  justify-content: space-evenly;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+.redes .bg-white img {
+  height: 45px;
+  width: 45px;
+  padding: 3px;
+}
+
+.copy {
+  position: relative;
+  margin-bottom: 2px;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  .bg-secondary {
+    min-height: 250px;
+  }
+  .bg-secondary .redes {
+    width: 65%;
+    height: 70%;
+    position: relative;
+    bottom: 55px;
+    left: -200px;
+  }
+  .bg-secondary .redes .bg-white {
+    width: 80%;
+    height: 57px;
+    background-color: brown;
+  }
+  .bg-secondary .redes .bg-white img {
+    height: 54px;
+    width: 57px;
+  }
+  .bg-secondary .app {
+    display: block;
+    height: 200px;
+    width: 100%;
+  }
+  .bg-secondary .app img {
+    width: 330px;
+    height: 90px;
+    margin-top: 3%;
+  }
+}/*# sourceMappingURL=styleFooter.css.map */
