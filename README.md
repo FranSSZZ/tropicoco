@@ -4,16 +4,21 @@
 
 # TropiCoco
 
-## **Contenido del repositorio**
+## **Contenido del repositorio**<br><br>
 
-Página principal<br>
 1. Archivos: **una rama principal y cinco subramas, que contienen: index.html, style.css, index.js, comentarios, registro de clientes, pago**<br>
 2. Carpetas: **img, imgReadme**<br>
-3. Documento **README**<br>
-4. Enlace a **Figma**<br>
-5. Enlace a **Trello**<br>
-6. Anexos: **Código**<br>
-7. Anexos: **Página**<br>
+3. Documento **README**:<br>
+  4.  Sobre la página.<br>
+  5.  Navegación de la página.<br>
+  6.  Sobre Nosotros.<br>
+  7.  Beanchmarking.<br>
+  8.  Historias de Usuario.<br>
+  9.  Enlace a **Figma**.<br>
+  10. Enlace a **Trello**.<br>
+  11. **GitHub**.<br>
+  12. Anexos: **Código**.<br>
+  13. Anexos: **Página**.<br>
 
 ## **Sobre la Página**
 
@@ -29,7 +34,7 @@ Elige entre una amplia gama de opciones en cada categoría, exclusivamente selec
 4. Registro de pago<br>
 5. Formulario de contacto<br>
 
-## **Cobre Nosotros**
+## **Sobre Nosotros**
 ### Equipo 5
 
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Melanie.jpeg" width="200" height="200">
@@ -157,6 +162,12 @@ Es:
 _Qué no queremos repetir de esta opción_<br><br>
 El centro no es el producto, son las certificaciones y la posición de la marca, y luego los productos que comercializan. El cliente se pierde en el scrolling entre contenidos. El responsive está mal pensado, todo se sobrepone a lo importante. hay una opción de inicio de sesión que también es de registro que está diminuta en el header.<br><br>
 
+## **Historias de Usuario**<br><br>
+
+_Luisa, profesora de instituto con dos hijos.Optimizar su tiempo. Como cliente quiero estar el minimo tiempo posible en la web(guardar datos usuario y navegacion intuitiva y sencilla, pago google si es primera vez) y a la espera de recepcionar el pedido._
+
+_Javier, Trabaja de camarero en cafeteria. Poder tomarse un batido con sus amigos en cualquier sitio. Como cliente quiero poder hacer un pedido desde un parque, rapido y recibirlo en el minimo tiempo posible(ventana emergente activar ubicacion)._
+
 ## **Figma**
 Link: https://www.figma.com/file/xsZZOnHOOMENE7bVEIUM3N/TropiCoco?node-id=0%3A1&t=KTulO5vnVwifzJxC-1 <br><br>
 
@@ -164,8 +175,53 @@ Link: https://www.figma.com/file/xsZZOnHOOMENE7bVEIUM3N/TropiCoco?node-id=0%3A1&
 
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/figma2.png" width="600" height="400"><br><br>
 
-
 ## **Trello**
 Link: https://trello.com/b/EfOW90xj/e-commerce <br><br>
 
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/trello190423.png" width="600" height="400"><br><br>
 
+## **GitHub**
+Link: https://github.com/FranSSZZ/tropicoco.git<br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/main%26branches.png" width="600" height="400"><br><br
+
+
+## **Anexos Código**
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codpagohtml.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codpagojs.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codusuariohtml.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codusuariojs.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/footerhtml.png" width="600" height="400"><br><br>
+
+<img src="" width="600" height="400"><br><br>
+
+<img src="" width="600" height="400"><br><br>
+
+<img src="" width="600" height="400"><br><br>
+
+## **Anexos Página**
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprusuario1.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprusuario2.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprpago.png" width="600" height="400"><br><br>
+
+<img src="" width="600" height="400"><br><br>
+
+<img src="" width="600" height="400"><br><br>
+
+<img src="" width="600" height="400"><br><br>
+
+<img src="" width="600" height="400"><br><br>
+
+<img src="" width="600" height="400"><br><br>
+
+
+
+<img src="" width="600" height="400"><br><br>
