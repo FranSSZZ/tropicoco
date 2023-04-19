@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="prueba.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylefooter.css">
+    <link rel="stylesheet" href="stylefooter.scss">
     <script defer src="stock.js"></script>
     <script defer src="modal.js"></script>
     <script defer src="app.js"></script>
@@ -19,6 +21,7 @@
         <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
         <a  href="#" class="logo">
             <img src="img/tropicoco.png" alt="logo de tropicoco">
+
           </a>
            <i class='bx bx-menu' id="menu-icon"></i>
            <ul class="navbar">
@@ -32,7 +35,7 @@
                <i class='bx bx-search'><search-icon></search-icon></i>
            </div>
            <!--Search Box-->
-           <div class="search-box">
+           <div  id="Buscador" class="search-box">
                <input type="search" name="" id="" placeholder="Search Here...">
            </div>
     </header>
@@ -58,8 +61,46 @@
             
         </div>
     </div>
-    <script defer src="stock.js"></script>
-    <script defer src="modal.js"></script>
-    <script defer src="app.js"></script>
+    <footer>
+        <div class="container-fluid bg-secondary  ">
+            <div class="row pt-3 mh-80  ">
+                <div class="col-6 col-lg-4 text-center mb-4">
+                    <h4>TROPICOCO</h4>
+                    <p>ABOUT US</p>
+                    <P>PRIVACI POLICY</P>
+                    <P>TERMS AND CODITIONS</P>
+                </div>
+                <div class="col-6 col-lg-4 text-center mb-4">
+                    <h4>HELP</h4>
+                    <p>FAQS</p>
+                    <P>CONTACT US</P>
+                    <P>TROPICOCO CONNECT</P>
+                </div>
+                <div class="  row  col-12 col-lg-4 text-center justify-content-center mb-4">
+                    <h4>DOWNLOAD OUR APP</h4>
+                    <div class="app">
+                        <img src="imagenes/imagesPLAYSTOREGOGGLE.png" alt="Imagen Google Store">
+                        <img src="imagenes/APPSTORE ESP.png" alt="Imagen App Store">
+                    </div>
+                </div>
+            </div>
+            <div class="row re pb-3  ">
+                <div class=" redes col-8 col-lg-6  ">
+                    <h4>GET SOCIAL WITH US</h4>
+                    <div class="bg-white ">
+                        <img src="imagenes/facebook.png" alt="Icono facebook">
+                        <img src="imagenes/pinterest.png" alt="Icono pinterest">
+                        <img src="imagenes/gorjeo.png" alt="Icono twiter">
+                        <img src="imagenes/instagram.png" alt="Icono instagram">
+                    </div>
+                </div>
+            </div>
+            <p class="copy"><small><b>Copyright@2023 Tropicoco Pvt Ltd</b></small></p>
+        </div>
+    </footer>
+       <script defer src="stock.js"></script>
+       <script defer src="modal.js"></script>
+       <script defer src="app.js"></script>
+   
 </body>
 </html>
