@@ -72,9 +72,9 @@ https://github.com/FranSSZZ
 ### _Big Basket_<br>
 Link: https://www.bigbasket.com/cl/fruits-vegetables/ <br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/bb1.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/bb1.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/bb2.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/bb2.png" width="600" height="300"><br><br>
 
 #### Análisis de Beanchmark Big Basket <br><br>
 
@@ -102,9 +102,9 @@ La sección de comentarios y contáctanos está escondida en el footer muy abajo
 ### _Online Fruit and Veg_<br>
 Link: https://www.onlinefruitandveg.com/ <br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ofv1.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ofv1.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ofv2.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ofv2.png" width="600" height="300"><br><br>
 
 #### Análisis de Beanchmark Online Fruit and Veg <br><br>
 
@@ -123,9 +123,9 @@ Extrañamos el engagement con los clientes, no tienen una página que hable sobr
 ### _Agroboca_<br>
 Link: https://www.agroboca.com/comprar <br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ab1.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ab1.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ab2.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ab2.png" width="600" height="300"><br><br>
 
 #### Análisis de Beanchmark Real Food <br><br>
 
@@ -143,9 +143,9 @@ La página no tiene accesible el registro de usuario y el enlace al carrito es c
 ### _La Frutería_<br>
 Link: https://www.lafruteria.es/ <br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/lf1.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/lf1.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/lf2.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/lf2.png" width="600" height="300"><br><br>
 
 #### Análisis de Beanchmark La Frutería <br><br>
 
@@ -171,49 +171,49 @@ _Javier, Trabaja de camarero en cafeteria. Poder tomarse un batido con sus amigo
 ## **Figma**
 Link: https://www.figma.com/file/xsZZOnHOOMENE7bVEIUM3N/TropiCoco?node-id=0%3A1&t=KTulO5vnVwifzJxC-1 <br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/figma1.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/figma1.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/figma2.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/figma2.png" width="600" height="300"><br><br>
 
 ## **Trello**
 Link: https://trello.com/b/EfOW90xj/e-commerce <br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/trello190423.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/trello190423.png" width="600" height="300"><br><br>
 
 ## **GitHub**
-Link: https://github.com/FranSSZZ/tropicoco.git<br><br>
+Link: https://github.com/FranSSZZ/tropicoco.git <br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/main%26branches.png" width="600" height="700"><br><br
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/main%26branches.png" width="600" height="300"><br><br>
 
 
 ## **Anexos Código**
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codpagohtml.png" width="600" height="400"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codpagohtml.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codpagojs.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codpagojs.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codusuariohtml.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codusuariohtml.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codusuariojs.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codusuariojs.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/footerhtml.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/footerhtml.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprprueba.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprprueba.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/appjs.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/appjs.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/botonjs.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/botonjs.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/stockjs.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/stockjs.png" width="600" height="300"><br><br>
 
 ## **Anexos Página**
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprusuario1.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprusuario1.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprusuario2.png"width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprusuario2.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprpago.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprpago.png" width="600" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprprueba2.png" width="600" height="700"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprprueba2.png" width="600" height="300""><br><br>
 
 
