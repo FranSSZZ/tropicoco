@@ -7,11 +7,13 @@
 ## **Contenido del repositorio**
 
 Página principal<br>
-1. Archivos: **index.html, style.css, index.js**<br>
+1. Archivos: **una rama principal y cinco subramas, que contienen: index.html, style.css, index.js, comentarios, registro de clientes, pago**<br>
 2. Carpetas: **img, imgReadme**<br>
 3. Documento **README**<br>
 4. Enlace a **Figma**<br>
 5. Enlace a **Trello**<br>
+6. Anexos: **Código**<br>
+7. Anexos: **Página**<br>
 
 ## **Sobre la Página**
 
@@ -104,7 +106,7 @@ Link: https://www.onlinefruitandveg.com/ <br><br>
 Son una empresa pequeña que vende localmente frutas y vegetales, lo hacen a través de su página web y tiendas físicas en UK. Son comerciantes independientes de frutas y vegetales con más de 40 años de experiencia, están enfocados en buscar productos de alta calidad para el día a día y hacen envíos a todo el país a sus clientes más fieles.<br><br>
 
 _Qué nos interesa mirar al página_ <br><br>
-Van directo al grano, muestran sus productos al entrar al home, con imágenes referenciales.
+Van directo al grano, muestran sus productos al entrar al home, con imágenes referenciales.<br><br>
 Es:
 1. Responsive.<br><br>
 2. Está de primera en el motor de búsqueda al escribir "online shop fruits and veggies".<br><br>
@@ -116,25 +118,44 @@ Extrañamos el engagement con los clientes, no tienen una página que hable sobr
 ### _Agroboca_<br>
 Link: https://www.agroboca.com/comprar <br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/rf1.png" width="600" height="400"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ab1.png" width="600" height="400"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/rf2.png" width="600" height="400"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ab2.png" height="400"><br><br>
 
 #### Análisis de Beanchmark Real Food <br><br>
 
-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.<br><br>
+AGROBOCA es una plataforma creada para recuperar todo el sabor, valor nutricional y un precio razonable en frutas y hortalizas. Creemos que para conseguirlo es imprescindible dar soporte a los protagonistas, los productores. Para ello creamos este canal, invitando a los consumidores a comprar en origen y ofreciendo a los agricultores herramientas actuales y gratuitas para vender directamente sus productos, con la calidad original y a un precio justo.<br><br>
 
-### _Family Food_<br>
-Link: https://familyfood.es/en/ <br><br>
+_Qué nos interesa mirar al página_ <br><br>
+La página y las opciones que ofrece, es simple no se ocupa demasiado por ser atractiva, muestra en la entrada lo que ofrece. Es breve su scrolling y ofrece dos menús uno en el header y uno a la izquierda.<br><br>
+Es:
+1. Responsive hasta cierto tamaño.<br><br>
+2. Está de primera en el motor de búsqueda al escribir "venta online de frutas y vegetales", debajo de los miles (exageración) de links patrocinados.<br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ff1.png" width="600" height="400"><br><br>
+_Qué no queremos repetir de esta opción_<br><br>
+La página no tiene accesible el registro de usuario y el enlace al carrito es confuso. hay demasiada información sobrepuesta en las tarjetas de los productos.<br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/ff2.png" width="600" height="400"><br><br>
+### _La Frutería_<br>
+Link: https://www.lafruteria.es/ <br><br>
 
-#### Análisis de Beanchmark Family Food <br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/lf1.png" width="600" height="400"><br><br>
 
-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.<br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/lf2.png" width="600" height="400"><br><br>
 
+#### Análisis de Beanchmark La Frutería <br><br>
+
+Nuestra experiencia arranca en el año 1989, cuando se inauguró la primera frutería y en el año 2000 ya empezamos a dar servicio de venta por Internet. La idea era dar servicio a los clientes de la tienda física, ponerlo fácil para que el cliente pudiera elegir hacer el pedido por teléfono, fax o por la web, en principio no teníamos pensado la posibilidad de vender fuera de nuestra localidad. Subíamos una hoja de calculo con el listado de artículos y precios y los clientes sabían a como estaba cada articulo y por email nos pasaban el pedido, no existía el carrito de la compra.<br>
+
+En el año 2007 implantamos la Norma de Calidad UNE 175000, siendo la primera frutería de España en conseguirlo y con la certificación de AENOR. En el año 2008 La Fundación Valenciana de la Calidad (FVQ) nos concedió el Galardón del Sello COMERCIO EXCELENTE, de manos de su Presidenta y Consellera de Comercio a M. Ilustre SRA. D. Belén Juste Picón, siendo también la primera Frutería de toda la Comunidad Valenciana en obtenerlo, reconociendo la calidad de las instalaciones y calidad comercial del servicio. En 2008 montamos otra web con carrito incluido y con la idea de vender también solo en la zona pero poniéndolo mas cómodo para nuestros clientes. Fue cuando compramos el dominio lafruteria.es cuando decidimos aventurarnos en la venta a nivel nacional. A partir de ahí poco a poco, sin correr pero sin parar, hemos estado invirtiendo en nuestra web hasta estar en las primeras posiciones de Google.<br><br>
+
+_Qué nos interesa mirar al página_ <br><br>
+Es simple, se interesa por presentar sus logros y certificaciones antes que sus productos.<br><br>
+Es:
+1. Responsive hasta cierto tamaño.<br><br>
+2. Está de segunda en el motor de búsqueda al escribir "venta online de frutas y vegetales", debajo de los links patrocinados.<br><br>
+
+_Qué no queremos repetir de esta opción_<br><br>
+El centro no es el producto, son las certificaciones y la posición de la marca, y luego los productos que comercializan. El cliente se pierde en el scrolling entre contenidos. El responsive está mal pensado, todo se sobrepone a lo importante. hay una opción de inicio de sesión que también es de registro que está diminuta en el header.<br><br>
 
 ## **Figma**
 Link: https://www.figma.com/file/xsZZOnHOOMENE7bVEIUM3N/TropiCoco?node-id=0%3A1&t=KTulO5vnVwifzJxC-1 <br><br>
@@ -147,6 +168,4 @@ Link: https://www.figma.com/file/xsZZOnHOOMENE7bVEIUM3N/TropiCoco?node-id=0%3A1&
 ## **Trello**
 Link: https://trello.com/b/EfOW90xj/e-commerce <br><br>
 
-<img src="" width="600" height="400"><br><br>
 
-<img src="" width="600" height="400"><br><br>
