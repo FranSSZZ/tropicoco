@@ -1,24 +1,38 @@
-let openShopping = document.querySelector('.shopping');
-let closeShopping = document.querySelector('.closeShopping');
-let list = document.querySelector('.list');
-let listCard = document.querySelector('.listCard');
-let body = document.querySelector('body');
-let total = document.querySelector('.total');
-let quantity = document.querySelector('quantity');
+let shoppingCart = {
+  items: [],
+  total: 0
+};
+function addToCart(itemId) {
+  let item = document.getElementById(itemId);
+  let itemName = item.querySelector('.name').textContent;
+  let itemPrice = parseFloat(item.querySelector('.price').textContent.replace('$', ''));
+  let itemQuantity = parseInt(item.querySelector('.select-style').value);
 
+  let newItem = {
+    name: itemName,
+    price: itemPrice,
+    quantity: itemQuantity
+  };
 
-openShopping.addEventListener('click', ()=>{
-    body.classList.add('active');
-})
-closeShopping.addEventListener('click', ()=>{
-  body.classList.remove('active');
-})
-let products = [
-  {
-    id: 1,
-    name: 'PRODUCT NAME 1',
-    image: '1.PNG',
-    price: 2.75
+  shoppingCart.items.push(newItem);
+  updateShoppingCart();
+}
+function updateShoppingCart() {
+  let cartList = document.querySelector('.listCard');
+  let cartTotal = document.querySelector('.total');
+  cartList.innerHTML = '';
+  shoppingCart.total = 0;
+
+  for (let i = 0; i < shoppingCart.items.length; i++) {
+    let item = shoppingCart.items[i];
+    let itemTotal = item.price * item.quantity;
+    shoppingCart.total += itemTotal;
+
+    let li = document.createElement('li');
+    li.textContent = `${item.name} x ${item.quantity} - $${itemTotal.toFixed(2)}`;
+    cartList.appendChild(li);
   }
-];
-  
+
+  cartTotal.textContent = `$${shoppingCart.total.toFixed(2)}`;
+}
+
