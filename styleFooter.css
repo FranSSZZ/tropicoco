@@ -59,6 +59,9 @@ footer .caja .re .copy {
 }
 
 @media (min-width: 992px) {
+  .bg-secondary {
+    padding-top: 15px;
+  }
   .bg-secondary .textf {
     display: flex;
     justify-content: space-around;
