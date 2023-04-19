@@ -49,6 +49,15 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.contenedor-productos{
+  
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
 
 p {
     line-height: 1.8;
