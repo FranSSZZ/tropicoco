@@ -205,12 +205,12 @@ function crearUsuario(){
 
 // código para crear el usuario
 
-function crearUsuario(nombre, apellido, email, password) {
+function crearUsuario(name, lastName, email, pwd) {
     const usuario = {
-      nombre: nombre,
-      apellido: apellido,
+      name: name,
+      lastName: lastName,
       email: email,
-      password: password
+      pwd: pwd
     };
   
 }

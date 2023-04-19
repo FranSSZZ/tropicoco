@@ -21,7 +21,7 @@
                         <div class="control-group mt-3 mb-1">
                             <label class="control-label text-white">Nombre en la Tarjeta</label>
                             <div class="controls">
-                                <input type="text" class="input-block-level" pattern="\w+ \w+.*" title="Complete con su primer nombre y apellido" required>
+                                <input type="text" class="input-block-level" id="cardName" pattern="\w+ \w+.*" title="Complete con su primer nombre y apellido" required>
                             </div>
                         </div>
                         <div class="control-group">
@@ -29,16 +29,16 @@
                             <!-- <div class="controls"> -->
                                 <div class="row pt-4">
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="0000" aria-label="0000">
+                                        <input type="text" id="cardNumber1" class="form-control" placeholder="0000" aria-label="0000">
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="0000" aria-label="0000">
+                                        <input type="text" id="cardNumber2" class="form-control" placeholder="0000" aria-label="0000">
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="0000" aria-label="0000">
+                                        <input type="text" id="cardNumber3" class="form-control" placeholder="0000" aria-label="0000">
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="0000" aria-label="0000">
+                                        <input type="text" id="cardNumber4" class="form-control" placeholder="0000" aria-label="0000">
                                     </div>
                                 </div>
                             <!-- </div> -->
@@ -48,7 +48,7 @@
                             <div class="controls">
                                 <div class="row-fluid">
                                     <div class="span9">
-                                        <select class="input-block-level">
+                                        <select class="input-block-level" id="month">
                                             <option>Enero</option>
                                             <option>Febrero</option>
                                             <option>Marzo</option>
@@ -64,7 +64,7 @@
                                         </select>
                                     </div>
                                     <div class="span3">
-                                        <select class="input-block-level">
+                                        <select class="input-block-level" id="year">
                                             <option>2023</option>
                                             <option>2024</option>
                                             <option>2025</option>
@@ -76,7 +76,7 @@
                             </div>
                         </div>
                         <div class="control-group">
-                            <label class="control-label text-white">CVV</label>
+                            <label class="control-label text-white" id="cvv">CVV</label>
                             <div class="controls">
                                 <div class="row-fluid">
                                     <div class="span3">
@@ -95,5 +95,6 @@
             </div>
         </div>
     </div>
+    <script src="pago.js"></script>
 </body>
 </html>
