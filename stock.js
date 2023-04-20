@@ -5,7 +5,7 @@ let stockProductos = [
     {id: 4, nombre: "Coco", tipo: "Fruta", cantidad: 1, desc: "", precio: 2.50, kilos: "", img: './img.index/cocos.png'},
     {id: 5, nombre: "Frambuesa", tipo: "Fruta", cantidad: 1, desc: "", precio: 2.50, kilos: "", img: './img.index/frambuesas.png'},
     {id: 6, nombre: "Fresa", tipo: "Fruta", cantidad: 1, desc: "", precio: 2.50, kilos: "", img: './img.index/fresas.png'},
-    {id: 7, nombre: "Fruta de la Pasion", tipo: "Fruta", cantidad: 1, desc: "", precio: 2.50, kilos: "", img: './img.index/frutadelapasion.png'},
+    {id: 7, nombre: "Fruta Pasion", tipo: "Fruta", cantidad: 1, desc: "", precio: 2.50, kilos: "", img: './img.index/frutadelapasion.png'},
     {id: 8, nombre: "Granada", tipo: "Fruta", cantidad: 1, desc: "", precio: 2.50, kilos: "", img: './img.index/granada.png'},
     {id: 9, nombre: "Higos", tipo: "Fruta", cantidad: 1, desc: "", precio: 2.50, kilos: "", img: './img.index/higos.png'},
     {id: 10, nombre: "Kiwi", tipo: "Fruta", cantidad: 1, desc: "", precio: 2.50, kilos: "", img: './img.index/kiwi.png'},
