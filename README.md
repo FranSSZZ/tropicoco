@@ -186,7 +186,7 @@ Link: https://github.com/FranSSZZ/tropicoco.git <br><br>
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/main%26branches.png" width="600" height="300"><br><br>
 
 
-## **Anexos Código**
+## **Anexos Código**<br><br>
 
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/codpagohtml.png" width="600" height="300"><br><br>
 
@@ -206,7 +206,7 @@ Link: https://github.com/FranSSZZ/tropicoco.git <br><br>
 
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/stockjs.png" width="600" height="300"><br><br>
 
-## **Anexos Página**
+## **Anexos Página**<br><br>
 
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprusuario1.png" width="600" height="300"><br><br>
 
@@ -216,4 +216,8 @@ Link: https://github.com/FranSSZZ/tropicoco.git <br><br>
 
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/imprprueba2.png" width="600" height="300"><br><br>
 
+## **Próximos Sprints**<br><br>
+
+1. Enviar correo desde el formulario.<br><br>
+2. Hacer funcional barra de búsqueda.<br><br>
 
