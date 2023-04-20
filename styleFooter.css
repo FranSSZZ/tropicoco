@@ -50,12 +50,23 @@ footer .redes img {
   margin: 0 10px;
   width: 35px;
 }
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app i {
+  font-size: 36px; 
+}
 /* Ajuste de las filas para que los elementos se alineen horizontalmente */
 .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 40px;
 }
+
 
 /* Ajuste de las columnas para que tengan el mismo ancho y se alineen horizontalmente */
 .col-6 {

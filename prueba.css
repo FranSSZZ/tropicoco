@@ -26,7 +26,7 @@ h2 {
   
 #boton-carrito {
     border: none;
-    color: royalblue;
+    color: rgb(33, 197, 85);
     font-size: 40px;
     background-color: white;
     border-radius: 50%;
@@ -71,13 +71,22 @@ p {
     font-weight: 700;
 }
 .boton-agregar {
-    background-color: rgb(36, 170, 15);
+    background-color: rgb(42, 174, 22);
     color: white;
     font-size: 18px;
     font-weight: 700;
     padding: 5px;
     border: none;
     border-radius: 10px;
+}
+.boton-pagar {
+  background-color: rgb(42, 174, 22);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
 }
 .boton-agregar:hover {
     cursor: pointer;
@@ -160,8 +169,7 @@ p {
     color: red;
     border: none;
     font-size: 20px;
-}
-
+}ƒ
 .boton-eliminar:hover {
     cursor: pointer;
 }
@@ -172,16 +180,7 @@ img {
     width: 200px;
     height: 200px;
   }
-  .boton-pagar{
-    background-color: rgb(36, 170, 15);
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 5px;
-    border: none;
-    border-radius: 30px;
-    margin-left: 300px;
-  }
+
   
   /* Media queries */
 

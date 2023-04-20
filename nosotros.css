@@ -1,0 +1,53 @@
+section {
+    background-color: #f6f5f5; 
+    padding: 50px; 
+  }
+  
+  h8 {
+    font-size: 36px; 
+    color: #354f52;
+    margin-bottom: 30px; 
+  }
+  
+  h9 {
+    font-size: 24px; 
+    color: #354f52;
+    margin-bottom: 20px; 
+  }
+  
+  p {
+    font-size: 18px; 
+    color: #354f52; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+  }
+  
+  /* estilos adicionales para un efecto tropical */
+  
+  section {
+    background-image: linear-gradient(to bottom right, #8bc34a, #4caf50);
+  }
+  
+  h8, h9 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h8::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 60px;
+    background-color: #354f52;
+    margin-top: 10px;
+  }
+  
+  h9::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 40px;
+    background-color: #354f52;
+    margin-top: 5px;
+  }
+  
+  

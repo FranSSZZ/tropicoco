@@ -55,7 +55,7 @@ header.shadow{
     font-weight: 500;
 }
 .navbar a:hover{
-    background: var(--main-color);
+    background: rgb(16, 184, 16);
     border-radius:0.2rem;
     transition: 0.2s all linear;
 }
