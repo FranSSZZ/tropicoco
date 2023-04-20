@@ -1,4 +1,4 @@
-
+let stockProductos =concat(fruta,verdura,batido);
 
 
 let fruta=[
@@ -60,5 +60,3 @@ let batido=[
     {id: 53, nombre: "Fresa", tipo: "Smoothie", cantidad: 1, desc: "", precio: 4.90, kilos: "", img: './img.smoothies/s.fresa.png'},
     {id: 54, nombre: "Arandano", tipo: "Smoothie", cantidad: 1, desc: "", precio: 4.90, kilos: "", img: './img.smoothies/s.arandano.png'}
 ]
-
-let stockProductos =concat(fruta,verdura,batido);
