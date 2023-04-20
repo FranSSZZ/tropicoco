@@ -223,8 +223,8 @@ Link: https://github.com/FranSSZZ/tropicoco.git <br><br>
 
 ## **Veriones de los Logos**<br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/TropiCocoV1.png" width="600" height="300"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/TropiCocoV1.png" width="300" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/TropiCocoV2.png" width="600" height="300"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/TropiCocoV2.png" width="300" height="300"><br><br>
 
-<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/TropiCocoV3.png" width="600" height="300"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/TropiCocoV3.png" width="300" height="300"><br><br>
