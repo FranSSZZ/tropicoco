@@ -9,9 +9,9 @@
 1. Archivos: **una rama principal y cinco subramas, que contienen: index.html, style.css, index.js, comentarios, registro de clientes, pago**<br>
 2. Carpetas: **img, imgReadme**<br>
 3. Documento **README**:<br>
-  4.  Sobre la página.<br>
+  4.  La página.<br>
   5.  Navegación de la página.<br>
-  6.  Sobre Nosotros.<br>
+  6.  Nosotros.<br>
   7.  Beanchmarking.<br>
   8.  Historias de Usuario.<br>
   9.  Enlace a **Figma**.<br>
@@ -20,7 +20,7 @@
   12. Anexos: **Código**.<br>
   13. Anexos: **Página**.<br>
 
-## **Sobre la Página**
+## **La Página**
 
 ### _Qué es TropiCoco, fruta fresca y batidos_<br>
 **TropiCoco** es una tienda en línea de frutas españolas/ exóticas y smoothies de sabores _fantásticos_. Con más de 200 productos de más de 10 países en nuestro catálogo, encontrarás todo lo que estas buscando. Desde frutas y verduras frescas,  hasta _smoothies_ a pedido con tus preferencias.<br><br>
@@ -34,7 +34,7 @@ Elige entre una amplia gama de opciones en cada categoría, exclusivamente selec
 4. Registro de pago<br>
 5. Formulario de contacto<br>
 
-## **Sobre Nosotros**
+## **Nosotros**
 ### Equipo 5
 
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/imgReadme/Melanie.jpeg" width="200" height="200">
