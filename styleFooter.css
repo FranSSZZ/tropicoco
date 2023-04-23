@@ -1,38 +1,20 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-footer {
-  background-color: #F5F5DC;
-}
-footer .caja {
-  padding-top: 20px;
-}
-footer .caja .textf {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-footer .caja h4 {
+h4 {
   margin-bottom: 30px;
   color: chartreuse;
 }
-footer .caja h4 .bg-white {
+h4 .bg-white {
   align-self: auto;
 }
-footer .caja .appbox {
-  margin-top: 20px;
-}
-footer .caja .appbox .app {
+
+.app {
   justify-content: space-around;
 }
-footer .caja .appbox .app img {
+.app img {
   width: 150px;
   height: 50px;
 }
-footer .caja .re .redes {
+
+.redes {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -40,19 +22,21 @@ footer .caja .re .redes {
   text-align: center;
   justify-content: center;
 }
-footer .caja .re .redes .bg-white {
+.redes .bg-white {
   display: flex;
   height: 50%;
   width: 80%;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 8px;
   margin-bottom: 15px;
 }
-footer .caja .re .redes .bg-white img {
+.redes .bg-white img {
   height: 45px;
   width: 45px;
   padding: 3px;
 }
-footer .caja .re .copy {
+
+.copy {
   position: relative;
   margin-bottom: 2px;
   font-size: 0.8rem;
@@ -60,38 +44,32 @@ footer .caja .re .copy {
 
 @media (min-width: 992px) {
   .bg-secondary {
-    padding-top: 15px;
+    min-height: 250px;
   }
-  .bg-secondary .textf {
-    display: flex;
-    justify-content: space-around;
-  }
-  .bg-secondary .textf .re .redes {
-    width: 100%;
+  .bg-secondary .redes {
+    width: 65%;
     height: 70%;
-    padding-top: -100px;
+    position: relative;
+    bottom: 55px;
+    left: -200px;
   }
-  .bg-secondary .textf .re .redes .bg-white {
-    width: 100%;
+  .bg-secondary .redes .bg-white {
+    width: 80%;
     height: 57px;
     background-color: brown;
   }
-  .bg-secondary .textf .re .redes .bg-white img {
+  .bg-secondary .redes .bg-white img {
     height: 54px;
     width: 57px;
   }
-  .bg-secondary .textf .appbox {
-    margin-top: 0px;
-  }
-  .bg-secondary .textf .appbox .app {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  .bg-secondary .app {
+    display: block;
     height: 200px;
     width: 100%;
   }
-  .bg-secondary .textf .appbox .app img {
-    width: 225px;
-    height: 60px;
+  .bg-secondary .app img {
+    width: 330px;
+    height: 90px;
+    margin-top: 3%;
   }
 }/*# sourceMappingURL=styleFooter.css.map */
