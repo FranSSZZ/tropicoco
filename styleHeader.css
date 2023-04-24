@@ -11,21 +11,21 @@
 }
 /*Variable*/
 :root{
-    --main-color:#9185e7;
-    --second-color:#c9910f;
+    --main-color:#fffdfd;
+    --second-color:#edeae3;
     --text-color:#fcfcfc;
     --bg-color:#000000;
     --box-shadow:2px 2px 10px 4px rgb(14 55 54 / 15%); 
 }
 img{
-    width: 125px;
-    height: 125px;
+    width: 50px;
+    height: 50px;
 }
 body{
     color:var(--bg-color);
 }
 header{
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     right: 0;
@@ -35,10 +35,7 @@ header{
     align-items: center;
     padding: 18px 100px;
     transition: 0.5s linear;
-}
-header.shadow{
     background: var(--text-color);
-    box-shadow: var(--box-shadow);
 }
 .logo-img{
     width: 10px;
@@ -55,7 +52,7 @@ header.shadow{
     font-weight: 500;
 }
 .navbar a:hover{
-    background-color: green ;
+    background: var(--main-color);
     border-radius:0.2rem;
     transition: 0.2s all linear;
 }
@@ -72,16 +69,22 @@ header.shadow{
 .header-icon .bx:hover{
     color: var(--main-color);
 }
-
+#manu-icon{
+    color: var(--bg-color);
+    font-size: 24px;
+    z-index: 100001;
+    cursor: pointer;
+    display: none;
+}
 .search-box{
   position: absolute;
-  top: -100%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%);
   background: var(--bg-color);
   width: 100%;  
 }
-.search-box .active{
+.search-box.active{
     top: 110%;
     box-shadow:var(--box-shadow);
     transition: 0.2s all linear;
@@ -97,16 +100,4 @@ header.shadow{
 .search-box input::placeholder{
     font-size: 1rem;
     font-weight:500px;
-    
-}
-
-@media(max-width:991px){
-    header{
-        padding: 16px 68px;
-    }
-}
-@media(max-width: 768px){
-    header{
-        padding: 12px 4%;
-    }
 }

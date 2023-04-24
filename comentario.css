@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2? family= Inter & mostrar=intercambiar');
 *{
     font-family: 'Inter', sans-serif-serif;
@@ -11,7 +12,7 @@
 }
 /*Variable*/
 :root{
-    --main-color:#9185e7;
+    --main-color:#dc1414;
     --second-color:#c9910f;
     --text-color:#fcfcfc;
     --bg-color:#000000;
@@ -25,7 +26,7 @@ body{
     color:var(--bg-color);
 }
 header{
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     right: 0;
@@ -55,7 +56,7 @@ header.shadow{
     font-weight: 500;
 }
 .navbar a:hover{
-    background-color: green ;
+    background: var(--main-color);
     border-radius:0.2rem;
     transition: 0.2s all linear;
 }
@@ -81,7 +82,7 @@ header.shadow{
   background: var(--bg-color);
   width: 100%;  
 }
-.search-box .active{
+.search-box.active{
     top: 110%;
     box-shadow:var(--box-shadow);
     transition: 0.2s all linear;
@@ -97,7 +98,6 @@ header.shadow{
 .search-box input::placeholder{
     font-size: 1rem;
     font-weight:500px;
-    
 }
 
 @media(max-width:991px){

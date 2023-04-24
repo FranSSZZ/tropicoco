@@ -1,109 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title></title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleHeader.css">
+
 </head>
+
 <body>
-    <main>
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+    <header>
+        <div class="container">
+            <div class="row">
+                <a href="#" class="logo">
+                    <img src="imagenes/TropiCoco_3.png" alt="logo de tropicoco">
+                </a>
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <ul class="navbar">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="about">About Us</a></li>
+                    <li><a class="products">Products</a></li>
+                    <li><a class="customers">Customers</a></li>
+                </ul>
+                <div class="header-icon">
+                    <i class='bx bx-cart'></i>
+                    <i class='bx bx-search'><search-icon></search-icon></i>
+                </div>
+                <!--Search Box-->
+                <div class="search-box">
+                    <input type="search" name="" id="" placeholder="Search Here...">
+                </div>
             </div>
-          </nav>
-          <h2>FRUITS</h2>
-            <section class="flex-container">
-                <div class="box">
-                  <img src="img.index/caquis.png" alt="Fruta 1">
-                  <select>
-                    <option value="1">1 kg</option>
-                    <option value="2">3 kg</option>
-                    <option value="3">5 kg</option>
-                  </select>
+        </div>
+    </header>
+    <main>
+        <div class="fluid-container">
+            
+                <!-- Elementos generados a partir del JSON -->
+                <div id="items col-sm-8 row" >
+                    <h2>VERDURA</h2>
+                    <div class="verdura col-sm-8 row "></div>
+                    <h2>FRUTA</h2>
+                    <div class="fruta col-sm-8 row"></div>
+                    <h2>BATIDO</h2>
+                    <div class="batido col-sm-8 row"></div> 
                 </div>
-                <div class="box"><img src="img.index/cerezas.png" alt="Fruta 2">
-                  <select>
-                    <option value="1">1 kg</option>
-                    <option value="2">3 kg</option>
-                    <option value="3">5 kg</option>
-                  </select> 
-                </div>
-                <div class="box"><img src="img.index/ciruelas.png" alt="Fruta 3">
-                  <select>
-                    <option value="1">1 kg</option>
-                    <option value="2">3 kg</option>
-                    <option value="3">5 kg</option>
-                  </select>
-                </div>
-                <div class="box"><img src="img.index/cocos.png" alt="Fruta 4">
-                  <select>
-                    <option value="1">1 kg</option>
-                    <option value="2">3 kg</option>
-                    <option value="3">5 kg</option>
-                  </select></div>
-                <div class="box"><img src="img.index/frambuesas.png" alt="Fruta 5"></div>
-                <div class="box"><img src="img.index/fresas.png" alt="Fruta 6"></div>
-                <div class="box"><img src="img.index/frutadelapasion.png" alt="Fruta 7"></div>
-                <div class="box"><img src="img.index/granada.png" alt="Fruta 8"></div>
-                <div class="box"><img src="img.index/higos.png" alt="Fruta 9"></div>
-                <div class="box"><img src="img.index/kiwi.png" alt="Fruta 10"></div>
-                <div class="box"><img src="img.index/limones.png" alt="Fruta 11"></div>
-                <div class="box"><img src="img.index/manzana.png" alt="Fruta 12"></div>
-                <div class="box"><img src="img.index/uvas.png" alt="Fruta 13"></div>
-                <div class="box"><img src="img.index/melocotones.png" alt="Fruta 14"></div>
-                <div class="box"><img src="img.index/melones.png" alt="Fruta 15"></div>
-                <div class="box"><img src="img.index/moras.png" alt="Fruta 16"></div>
-                <div class="box"><img src="img.index/naranjas.png" alt="Fruta 17"></div>
-                <div class="box"><img src="img.index/papayas.png" alt="Fruta 18"></div>
-                <div class="box"><img src="img.index/peras.png" alt="Fruta 19"></div>
-                <div class="box"><img src="img.index/pinias.png" alt="Fruta 20"></div>
-                <div class="box"><img src="img.index/platano.png" alt="Fruta 21"></div>
-                <div class="box"><img src="img.index/sandias.png" alt="Fruta 22"></div>
-              </section>
-          <h2>VEGETABLES</h2>
-             <section class="flex-container">
-                <div class="box"><img src="img.verduras/ajos.png" alt="Verdura 1"></div>
-                <div class="box"><img src="img.verduras/alcachofas.png" alt="Verdura 2"></div>
-                <div class="box"><img src="img.verduras/apios.png" alt="Verdura 3"></div>
-                <div class="box"><img src="img.verduras/berenjenas.png" alt="Verdura 4"></div>
-                <div class="box"><img src="img.verduras/brocolis.png" alt="Verdura 5"></div>
-                <div class="box"><img src="img.verduras/calabacin.png" alt="Verdura 6"></div>
-                <div class="box"><img src="img.verduras/calabaza.png" alt="Verdura7"></div>
-                <div class="box"><img src="img.verduras/cebollas.png" alt="Verdura 8"></div>
-                <div class="box"><img src="img.verduras/coliflor.png" alt="Verdura 9"></div>
-                <div class="box"><img src="img.verduras/espinacas.png" alt="Verdura 10"></div>
-                <div class="box"><img src="img.verduras/guisantes.png" alt="Verdura 11"></div>
-                <div class="box"><img src="img.verduras/habas.png" alt="Verdura 12"></div>
-                <div class="box"><img src="img.verduras/judiasverdes.png" alt="Verdura 13"></div>
-                <div class="box"><img src="img.verduras/lechugas.png" alt="Verdura 14"></div>
-                <div class="box"><img src="img.verduras/maiz.png" alt="Verdura 15"></div>
-                <div class="box"><img src="img.verduras/patatas.png" alt="Verdura 16"></div>
-                <div class="box"><img src="img.verduras/pepinos.png" alt="Verdura 17"></div>
-                <div class="box"><img src="img.verduras/pimientos.png" alt="Verdura 18"></div>
-                <div class="box"><img src="img.verduras/puerro.png" alt="Verdura 19"></div>
-                <div class="box"><img src="img.verduras/remolachas.png" alt="Verdura 20"></div>
-                <div class="box"><img src="img.verduras/tomates.png" alt="Verdura 21"></div>
-                <div class="box"><img src="img.verduras/zanahorias.png" alt="Verdura 22"></div>
-            </section>
-          <h2>SMOOTHIES</h2>
-            <section class="flex-container">
-                <div class="box"><img src="img.smoothies/s..png" alt="Smoothie 1"></div>
-                <div class="box"><img src="img.smoothies/s.arandano.png" alt="Smoothie 2"></div>
-                <div class="box"><img src="img.smoothies/s.frambuesa.png" alt="Smoothie 3"></div>
-                <div class="box"><img src="img.smoothies/s.fresa.png" alt="Smoothie 4"></div>
-                <div class="box"><img src="img.smoothies/s.melocoton.png" alt="Smoothie 5"></div>
-                <div class="box"><img src="img.smoothies/s.melon.png" alt="Smoothie 6"></div>
-                <div class="box"><img src="img.smoothies/s.mora.png" alt="Smoothie 7"></div>
-                <div class="box"><img src="img.smoothies/s.sandia.png" alt="Smoothie 8"></div>
-            </section>
-          </div>   
+                <!-- Carrito -->
+                <aside class=" row col-sm-4">
+                    <h2>Carrito</h2>
+                    <!-- Elementos del carrito -->
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+                    <!-- Precio total -->
+                    <p class="text-right">Total: <span id="total"></span>&euro;</p>
+                    <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                </aside>
+            
+        </div>
     </main>
-    
+    <footer>
+        <div class="container-fluid bg-secondary  ">
+            <div class="row pt-3 mh-80  ">
+                <div class="col-6 col-lg-4 text-center mb-4">
+                    <h4>TROPICOCO</h4>
+                    <p>ABOUT US</p>
+                    <P>PRIVACI POLICY</P>
+                    <P>TERMS AND CODITIONS</P>
+                </div>
+                <div class="col-6 col-lg-4 text-center mb-4">
+                    <h4>HELP</h4>
+                    <p>FAQS</p>
+                    <P>CONTACT US</P>
+                    <P>TROPICOCO CONNECT</P>
+                </div>
+                <div class="  row  col-12 col-lg-4 text-center justify-content-center mb-4">
+                    <h4>DOWNLOAD OUR APP</h4>
+                    <div class="app">
+                        <img src="imagenes/imagesPLAYSTOREGOGGLE.png" alt="Imagen Google Store">
+                        <img src="imagenes/APPSTORE ESP.png" alt="Imagen App Store">
+                    </div>
+                </div>
+            </div>
+            <div class="row re pb-3  ">
+                <div class=" redes col-8 col-lg-6  ">
+                    <h4>GET SOCIAL WITH US</h4>
+                    <div class="bg-white ">
+                        <img src="imagenes/facebook.png" alt="Icono facebook">
+                        <img src="imagenes/pinterest.png" alt="Icono pinterest">
+                        <img src="imagenes/gorjeo.png" alt="Icono twiter">
+                        <img src="imagenes/instagram.png" alt="Icono instagram">
+                    </div>
+                </div>
+            </div>
+            <p class="copy"><small><b>Copyright@2023 Tropicoco Pvt Ltd</b></small></p>
+        </div>
+    </footer>
+    <script src="js.js">
+    </script>
 </body>
+
 </html>
