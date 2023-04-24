@@ -132,8 +132,8 @@ Link: https://www.figma.com/file/xsZZOnHOOMENE7bVEIUM3N/TropiCoco?node-id=0%3A1&
 
 
 ## **Trello**
-Link: https://trello.com/b/EfOW90xj/e-commerce <br><br>
+Link: https://trello.com/invite/b/X8Etgvvg/ATTI6303455f9d6a6e68137a4150c350e06bF9EA7F35/e-commerce-prueba-anadidos <br><br>
 
-<img src="" width="600" height="400"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/trello1.png" width="600" height="400"><br><br>
 
-<img src="" width="600" height="400"><br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/trello2.png" width="600" height="400"><br><br>
