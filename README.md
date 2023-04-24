@@ -19,10 +19,30 @@ Página principal<br>
 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.<br>
 
 ### _Navegación_<br>
-1. Home<br>
-2. Carrito de Compras<br>
-3. Formulario de registro<br>
-4. Formulario de contacto<br>
+1. Home<br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/main1.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/main2.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/main3.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/main4.png" width="600" height="400"><br><br>
+
+2. Carrito de Compras<br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/carrito.png" width="600" height="400"><br><br>
+
+3. Resgistro de Pago<br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/pagar.png" width="600" height="400"><br><br>
+
+4. Formulario de registro<br><br>
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/usuario1.png" width="600" height="400"><br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/usuario2.png" width="600" height="400"><br><br>
+
+5. Formulario de comentarios<br><br>
+
+<img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/comentarios.png" width="600" height="400"><br><br>
+
 
 ## **Nosotros**
 ### Equipo 5
