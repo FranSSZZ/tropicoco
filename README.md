@@ -20,6 +20,7 @@ Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de te
 
 ### _Navegación_<br>
 1. Home<br><br>
+
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/main1.png" width="600" height="400"><br><br>
 
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/main2.png" width="600" height="400"><br><br>
@@ -29,12 +30,15 @@ Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de te
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/main4.png" width="600" height="400"><br><br>
 
 2. Carrito de Compras<br><br>
+
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/carrito.png" width="600" height="400"><br><br>
 
 3. Resgistro de Pago<br><br>
+
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/pagar.png" width="600" height="400"><br><br>
 
 4. Formulario de registro<br><br>
+
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/usuario1.png" width="600" height="400"><br><br>
 
 <img src="https://github.com/FranSSZZ/tropicoco/blob/main/img.Readme/usuario2.png" width="600" height="400"><br><br>
@@ -132,4 +136,4 @@ Link: https://trello.com/b/EfOW90xj/e-commerce <br><br>
 
 <img src="" width="600" height="400"><br><br>
 
-<img src="" width="600" height="400"><br>
+<img src="" width="600" height="400"><br><br>
