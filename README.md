@@ -132,4 +132,4 @@ Link: https://trello.com/b/EfOW90xj/e-commerce <br><br>
 
 <img src="" width="600" height="400"><br><br>
 
-<img src="" width="600" height="400"><br><br>
+<img src="" width="600" height="400"><br>
